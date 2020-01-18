@@ -1,6 +1,6 @@
 Name:           perl-Class-Data-Inheritable
 Version:        0.08
-Release:        13%{?dist}
+Release:        14%{?dist}
 Summary:        Inheritable, overridable class data
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -47,6 +47,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Class::Data::Inheritable.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.08-14
+- Mass rebuild 2013-12-27
+
 * Tue Nov 06 2012 Jitka Plesnikova <jplesnik@redhat.com> - 0.08-13
 - Add BR perl(ExtUtils::MakeMaker)
 
